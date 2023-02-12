@@ -1,0 +1,189 @@
+body {
+  background-color: aqua;
+
+}
+
+h1, h2, h3 {
+  font-family: serif;
+}
+
+p {
+  font-family: Arial;;
+}
+
+/* container principal*/
+.container {
+  background-color: rgb(241, 19, 19);
+  width: 900px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  border-radius: 7px;
+}
+
+/* containers segundario*/
+.datos_personales {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6e6e6;
+  height: auto;
+  width: 35%;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.descripcion_perfil {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100%;
+  width: 65%;
+  padding: 10px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+/* --------------------- */
+.cajon_decoration {
+  margin: 0;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 75px;
+  background-color: #ac4b8f;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  text-align: center;
+}
+
+.fotop {
+  width: 50%;
+  height: auto;
+  left: 1%;
+  z-index: 1;
+  top: 9px;
+  border-radius: 100%;
+  position: relative;
+  border: solid;
+  border-color: rgb(30, 48, 206);
+  margin: 0;
+}
+
+.container_datos {
+  margin-top: 15px;
+  background-color:  #e6e6e6;
+  width: 100%;
+  height: auto;
+}
+
+.container_datos h3 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+.icons {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+ul{
+
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.habilidades {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color:  #e6e6e6;
+  
+}
+
+.habilidades h3 {
+  text-align: start;
+  margin-left: 24px;
+}
+
+.progress {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  background-color: #a9acaf;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.progress .icons {
+  margin-right: 5px;
+}
+
+.progress .h3 {
+  margin: 2px;
+  text-align: center;
+}
+
+.progress-bar {
+  background-color: blue;
+}
+/*-------SEGUNDA SECCION HOJA DE VIDA--------*/
+
+.perfil{
+background-color: white;
+}
+.perfil p{
+  margin: 10px;
+  
+}
+.experiencia{
+
+  margin-top: 10px;
+  background-color: white;
+
+}
+.exp_empresa{
+  margin: 5px;
+  background-color: white;
+   height: auto;
+  width: auto;
+  border-bottom: groove;
+}
+.decoration_exp h3{
+  margin: 0;
+
+  background-color: #d371b2;
+}
+.experiencia ul{
+ margin: 0;
+  list-style-type:disc;
+  margin-bottom: 10px;
+  
+}
+.experiencia p{
+
+  margin: 5px;
+  
+}
+.empresa{
+
+  margin: 5px;
+  font-weight: bold;
+}
+
+
+.educacion {
+  margin-top: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.formacion{
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+  padding: 0;
+  background-color: white;
+  padding-bottom: 15px;
+}
